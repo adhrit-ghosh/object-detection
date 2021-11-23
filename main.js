@@ -20,7 +20,7 @@ if (new_status!=""){
         text(object[i].label+" "+percent+"%",object[i].x,object[i].y);
         noFill();
         stroke("yellow");
-        rect(object[i].x,object[i].y,object[i].width,object[i].heigth);
+        rect(object[i].x,object[i].y,object[i].width,object[i].height);
     }
 }
 }
